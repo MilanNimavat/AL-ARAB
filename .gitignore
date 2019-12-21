@@ -1,0 +1,6 @@
+#remove sendgrid folder
+.@sendgrid
+.sendgrid
+.sendgrid-test
+w3layouts-License.txt
+.node_modules
