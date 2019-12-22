@@ -16,12 +16,12 @@
   "author": "",
   "license": "ISC",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MilanNimavat/Al-arab.git"
+    "type": "git"
+    
   },
   "bugs": {
-    "url": "https://github.com/MilanNimavat/Al-arab/issues"
+   
   },
-  "homepage": "https://github.com/MilanNimavat/Al-arab#readme",
+  
   "description": ""
 }
