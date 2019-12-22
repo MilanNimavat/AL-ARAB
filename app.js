@@ -3,7 +3,7 @@ const express  = require('express');
 //body parser
 const app = express();
 const sgMail = require('@sendgrid/mail');
-const SENDGRID_API_KEY='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';
+const SENDGRID_API_KEY='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';
 sgMail.setApiKey(SENDGRID_API_KEY);
 
 
@@ -71,7 +71,7 @@ app.post('/form',(req,res)=>{
     console.log(req.body.email1);
                   
     const msg = {
-        to: 'milanimavat171098@gmail.com',					//receiver's email
+        to: 'alarabworld19@gmail.com',					//receiver's email
         from: req.body.email1,			//sender's email
         subject: req.body.subject1,				//Subject
         text: req.body.message1       ,		//content
