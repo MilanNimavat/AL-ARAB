@@ -30,9 +30,6 @@ app.get('/index',(req,res)=>{
 app.get('/fruits',(req,res)=>{
     res.render('fruits')
 })
-app.get('/single',(req,res)=>{
-    res.render('single')
-})
 
 app.get('/grocery',(req,res)=>{
    
@@ -40,26 +37,12 @@ app.get('/grocery',(req,res)=>{
     
 })
 
-
-app.get('/form',(req,res)=>{
-    res.render('form')
-})
-
 app.get('/veges',(req,res)=>{
     res.render('veges')
 })
 
-app.get('/category',(req,res)=>{
-    res.render('category')
-})
-
-
 app.get('/spices',(req,res)=>{
     res.render('spices')
-})
-
-app.get('/medicines',(req,res)=>{
-    res.render('medicines')
 })
 
 app.get('/contact',(req,res)=>{
@@ -77,14 +60,6 @@ app.get('/about',(req,res)=>{
 app.get('/service',(req,res)=>{
     res.render('service')
 })
-
-app.get('/404',(req,res)=>{
-    res.render('404')
-})
-app.get('/face-like',(req,res)=>{
-   
-    res.render('face-like')
-});
 
 app.get('/contect',(req,res)=>{
     // res.send('contect')
