@@ -1,8 +1,2 @@
 #remove sendgrid folder
-.@sendgrid
-.sendgrid
-.sendgrid-test
-w3layouts-License.txt
-package.json
-package-lock.json
-.node_modules
+node_modules
